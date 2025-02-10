@@ -19,7 +19,7 @@ def decrypt_data(encrypted_data, key):
     return decrypted_bytes.decode()  
 
 key = get_random_bytes(KEY_LENGTH)  
-text = "Confidential Message!"
+text = "This is praneeth...!!!"
 
 encrypted_message = encrypt_data(text, key)
 decrypted_message = decrypt_data(encrypted_message, key)
