@@ -1,5 +1,6 @@
 import math
 
+#Q.1: Generating RSA Keys
 def generateKeys():
     p = 1031
     q = 1049
@@ -20,6 +21,8 @@ def generateKeys():
 
     return e,d,n
 
+
+#Q.2 : Encryption & Decryption of inp
 
 def encrypt(inp, e, n):
     return pow(inp, e, n)
